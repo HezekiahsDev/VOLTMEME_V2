@@ -886,7 +886,7 @@ section {
 .table-custom-body .row{
   color: white !important;
   margin: 0px;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .table-custom-body .row:nth-child(odd) {
