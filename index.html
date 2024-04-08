@@ -362,11 +362,23 @@
           </div>
         </div>
         <div class="text-center">
-          <a href="#"><button class="btn-sky-blue" style="width: 150px;  margin-top: 15px;">
+          <a href="#">
+            <button id="press-release-btn" class="btn-sky-blue" style="width: 150px; margin-top: 15px;">
               Press Releases
             </button>
           </a>
         </div>
+        
+        <div id="coming-soon" class="text-center" style="display: none;">
+          <p>Coming Soon</p>
+        </div>
+        
+        <script>
+          document.getElementById("press-release-btn").addEventListener("click", function() {
+            document.getElementById("coming-soon").style.display = "block";
+          });
+        </script>
+        
       </div>
     </section>
     <section id="presale" class="about">
@@ -409,14 +421,14 @@
         <div class="col-lg-4 align-self-center">
 
           <div class=" text-uppercase">
-            &copy; 2024 <strong><span>by VOLT</span></strong>. All Rights Reserved!
+            &copy; 2024 <strong><span>by VOLT.</span></strong> All Rights Reserved!
           </div>
         </div>
 
       </div>
   </footer><!-- End Footer -->
 
-  <div id=" preloader"></div>
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
