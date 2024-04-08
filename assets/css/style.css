@@ -387,6 +387,7 @@ p {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
+  .navbar .dropdown .dropdown ul kyc
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
