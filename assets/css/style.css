@@ -2212,12 +2212,14 @@ body{
 
 /*=============Resp. for small screen=============*/
 
-@media only screen and (max-width: 620px){
+/*
+@media only screen and (max-width: 575){
   .box-area{
     margin: 10 10px
   }
   .left-box{
-    height: 160px;
+    height: 150px;
     overflow: hidden;
   }
 }
+*/
