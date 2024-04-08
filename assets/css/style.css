@@ -913,7 +913,7 @@ margin-bottom: 20px;
 }
 
 #roadmap .card-body{
-height: 221px;
+height: 300px;
 }
 
 #roadmap .card .card-title{
@@ -2216,7 +2216,7 @@ body{
     margin: 0 10px
   }
   .left-box{
-    height: 200px;
+    height: 165px;
     overflow: hidden;
   }
 }
