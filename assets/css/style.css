@@ -2193,13 +2193,13 @@ body{
 
 /*=============Container=============*/
 .box-area{
-  width: 930px;
+  width: 1000px;
 }
 
 
 /*=============Right box=============*/
 .right-box{
-  padding: 40px 30px 40px 30px;
+  padding: 50px 40px 50px 40px;
 }
 
 
@@ -2214,10 +2214,10 @@ body{
 
 @media only screen and (max-width: 620px){
   .box-area{
-    margin: 0 10px
+    margin: 10 10px
   }
   .left-box{
-    height: 165px;
+    height: 160px;
     overflow: hidden;
   }
 }
